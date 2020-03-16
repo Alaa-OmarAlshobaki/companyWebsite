@@ -1,0 +1,22 @@
+body{
+  color:black;
+}
+.navbar-brand span {
+  color: #5C82B3 ;
+  
+}
+.navbar-brand{
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+ 
+}

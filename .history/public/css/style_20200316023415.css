@@ -1,0 +1,11 @@
+body{
+  color:black;
+}
+.navbar-brand span {
+  color: #5C82B3 ;
+}
+a {
+  color: #bd1220;
+  text-decoration: none;
+  background-color: transparent;
+}

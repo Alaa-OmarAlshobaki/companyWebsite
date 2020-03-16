@@ -1,0 +1,176 @@
+
+
+body {
+  color: black;
+
+
+
+}
+.navbar-brand span {
+  color: #5c82b3;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 3rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: #57595c;
+  font-weight: 900;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #5c82b3;
+  text-decoration: underline;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link {
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(92, 130, 179);
+  border-bottom: 3px solid rgb(92, 130, 179);
+}
+
+
+/* end style header and navbar */
+
+/* start section cover */
+.no-gutters>.col, .no-gutters>[class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+}
+@media (max-width: 970px) {
+  .no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 10%;
+  }
+
+  
+
+}
+
+.imgabout{
+  box-shadow: 0 50px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+.ml11 {
+  color:#57595C 
+
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #5c82b3;
+  border-color: #5c82b3;
+}
+.btn-primary:hover{
+  color: #fff;
+  background-color: #57595c;
+  border-color: #57595c;
+}
+
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+
+  background-position: 50% 24.5px;
+  -webkit-backface-visibility: hidden; 
+  opacity: 0.7;
+}
+
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+.cover{
+  margin: 0;
+  padding: 0;
+}
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+/* end sectio about */
+/* animation slid */
+.slideanim {
+  visibility:hidden;
+  visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+  visibility: visible;                  
+  animation: slide 1s;
+}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(50%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  } 
+}
+/* end animation slide */
+
